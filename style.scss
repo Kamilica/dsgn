@@ -296,7 +296,6 @@ $gray: #e9eae2;
 
 .tabano-wrap {
     padding-top: 50px;
-    padding-bottom: 50px;
     .tabano-inner {
         padding-left: 35px;
     }
@@ -714,6 +713,7 @@ $gray: #e9eae2;
         }
     }
     .tabano-wrap {
+        padding-bottom: 50px;
         .tabano-inner {
             padding-left: 10%;
         }

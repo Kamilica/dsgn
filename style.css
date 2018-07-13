@@ -228,8 +228,7 @@ body {
 		Tabano
 **************************************************/
 .tabano-wrap {
-  padding-top: 50px;
-  padding-bottom: 50px; }
+  padding-top: 50px; }
   .tabano-wrap .tabano-inner {
     padding-left: 35px; }
   .tabano-wrap img {
@@ -540,13 +539,15 @@ body {
     margin-left: 20px;
     margin-top: 40px; }
 
-  .tabano-wrap .tabano-inner {
-    padding-left: 10%; }
-  .tabano-wrap .list-group {
-    margin-bottom: 50px; }
-  .tabano-wrap .section-heart {
-    margin-left: 20px;
-    margin-top: 40px; }
+  .tabano-wrap {
+    padding-bottom: 50px; }
+    .tabano-wrap .tabano-inner {
+      padding-left: 10%; }
+    .tabano-wrap .list-group {
+      margin-bottom: 50px; }
+    .tabano-wrap .section-heart {
+      margin-left: 20px;
+      margin-top: 40px; }
 
   .louis-wrap .list-group {
     margin-bottom: 50px; }
