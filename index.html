@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Landing Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-9 header-left_wrap p-0">
+                <div class="header-left">
+                    <img src="img/dsgn-logo.png" />
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 header-right_wrap p-0">
+                <div class="header-right">
+                    <nav class="navbar navbar-expand-xs navbar-dark p-0">
+                        <button class="navbar-toggler mx-auto rounded-0" type="button" onclick="openNav()"><span class="navbar-toggler-icon"></span></button>
+
+                        <div id="mySidenav" class="sidenav">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <a href="#">Home</a>
+                            <a href="#">Project</a>
+                            <a href="#">Studio</a>
+                            <a href="#">News</a>
+                            <a href="#">Contact</a>
+                        </div>
+
+                    </nav>
+                    <!-- /end navbar -->
+
+                    <div class="header-address">
+                        <p class="mb-0">90802 California</p>
+                        <p class="mb-0">Long beach</p>
+                        <p class="mb-0">PO Box 68789</p>
+                        <p class="mb-0">300 East Ocean</p>
+                        <p class="mb-0">Boulevard</p>
+                    </div>
+
+                    <div class="header-email">
+                        <p class="mb-0">+64 9 345 6758</p>
+                        <p class="mb-0">info@dsgn-studio.com</p>
+                    </div>
+                </div>
+                <!-- /.header-right -->
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <div class="row d-lg-block">
+            <div class="col-lg-9 p-0 float-left">
+                <div class="col-lg-6 float-left projects-wrap p-0">
+                    <div class="project">
+                        <ul class="list-group border-0">
+                            <li class="list-group-item border-0"><a href="#"><i class="fas fa-arrow-right mr-2"></i>All</a></li>
+                            <li class="list-group-item border-0"><a href="#"><i class="fas fa-arrow-right mr-2"></i>House</a></li>
+                            <li class="list-group-item border-0"><a href="#"><i class="fas fa-arrow-right mr-2"></i>Commercial</a></li>
+                            <li class="list-group-item border-0"><a href="#"><i class="fas fa-arrow-right mr-2"></i>Personal</a></li>
+                            <li class="list-group-item border-0"><a href="#"><i class="fas fa-arrow-right mr-2"></i>Studio Lab</a></li>
+                        </ul>
+                        <h2 class="main-title">projects</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6 float-left fondue-wrap p-0">
+                    <div class="fondue">
+                        <div class="fondue-inner">
+                            <h3 class="section-title">Fondue</h3>
+                            <ul class="list-group border-0">
+                                <li class="list-group-item border-0"><span>Project Assistant: </span>Francesco Dompieri</li>
+                                <li class="list-group-item border-0"><span>Material: </span>Glass and Metal</li>
+                                <li class="list-group-item border-0"><span>Typology: </span>Suspension lamp</li>
+                                <li class="list-group-item border-0"><span>Client: </span>David Design</li>
+                                <li class="list-group-item border-0"><span>Year: </span>2014</li>
+                            </ul>
+                            <a href="#" class="section-link"><i class="fas fa-arrow-right mr-2"></i>view project</a>
+
+                            <h5 class="section-heart"><span>+305</span></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 float-right potter-wrap p-0">
+                <div class="potter h-100 justify-content-center">
+                    <h3 class="section-title">Potter</h3>
+                    <h6>for stelton</h6>
+                    <p>Potter focuses on the functionality and process of preparing tea. a big sieve allows the flavor of to evenly brewed.</p>
+                    <a href="#" class="section-link"><i class="fas fa-arrow-right mr-2"></i>view project</a>
+                    <h5 class="section-heart"><span>+305</span></h5>
+                </div>
+            </div>
+
+            <div class="col-lg-3 float-right tabano-wrap">
+                <div class="tabano">
+                    <img class="img-fluid" src="img/tabano.png" />
+                    <div class="tabano-inner">
+                        <h3 class="section-title">tabano</h3>
+                        <ul class="list-group border-0">
+                            <li class="list-group-item border-0"><span>DESIGNER: </span>PATRICIA URQUIOLA</li>
+                            <li class="list-group-item border-0"><span>Typology: </span>Armchairs</li>
+                            <li class="list-group-item border-0"><span>Client: </span>B&B ITALIA</li>
+                            <li class="list-group-item border-0"><span>Year: </span>2018</li>
+                        </ul>
+                        <a href="#" class="section-link"><i class="fas fa-arrow-right mr-2"></i>view project</a>
+                        <h5 class="section-heart"><span>+305</span></h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-9 float-left p-0">
+                <div class="col-lg-4 float-left louis-wrap p-0">
+                    <div class="louis">
+                        <h3 class="section-title">louis xx</h3>
+                        <ul class="list-group border-0">
+                            <li class="list-group-item border-0"><span>DESIGNER: </span>philippe starck</li>
+                            <li class="list-group-item border-0"><span>Typology: </span>chairs</li>
+                            <li class="list-group-item border-0"><span>Client: </span>vitra</li>
+                            <li class="list-group-item border-0"><span>Year: </span>2018</li>
+                        </ul>
+                        <a href="#" class="section-link"><i class="fas fa-arrow-right mr-2"></i>view project</a>
+                        <h5 class="section-heart"><span>+305</span></h5>
+                    </div>
+                </div>
+                <div class="col-lg-8 float-left p22-wrap p-0">
+                    <div class="p22">
+                        <div class="p22-inner">
+                            <h3 class="section-title">395-396 P22</h3>
+                            <ul class="list-group border-0">
+                                <li class="list-group-item border-0"><span>DESIGNER: </span>Patrick Norgue</li>
+                                <li class="list-group-item border-0"><span>Typology: </span>Armchairs</li>
+                                <li class="list-group-item border-0"><span>Client: </span>Cassina</li>
+                                <li class="list-group-item border-0"><span>Year: </span>2018</li>
+                            </ul>
+                            <a href="#" class="section-link"><i class="fas fa-arrow-right mr-2"></i>view project</a>
+                            <h5 class="section-heart"><span>+305</span></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.col-lg-9 -->
+        </div>
+    </div>
+    <!-- /.container-fluid -->
+    <div class="container-fluid" style="clear:both">
+        <div class="row">
+            <div class="col-lg-6 sesann-wrap">
+                <div class="sesann">
+                    <img src="img/sesann.png" class="d-block img-fluid">
+                    <div class="d-flex justify-content-around">
+                        <div>
+                            <h3 class="section-title">Sesann</h3>
+                            <ul class="list-group border-0">
+                                <li class="list-group-item border-0"><span>DESIGNER: </span>Gianfranco Frattin</li>
+                                <li class="list-group-item border-0"><span>Typology: </span>Armchairs</li>
+                                <li class="list-group-item border-0"><span>Client: </span>Cassina</li>
+                                <li class="list-group-item border-0"><span>Year: </span>1970</li>
+                            </ul>
+                        </div>
+                        <div class="align-self-center">
+                            <a href="#" class="section-link"><i class="fas fa-arrow-right mr-2"></i>view project</a>
+                        </div>
+                        <div class="align-self-center">
+                            <h5 class="section-heart"><span>+305</span></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 alessi-wrap p-0">
+                <div class="alessi">
+                    <h3 class="section-title">Alessi</h3>
+                    <ul class="list-group border-0">
+                        <li class="list-group-item border-0"><span>DESIGNER: </span>Piero Lissoni</li>
+                        <li class="list-group-item border-0"><span>Client: </span>Alessi</li>
+                        <li class="list-group-item border-0"><span>Year: </span>2016</li>
+                    </ul>
+                    <a href="#" class="section-link"><i class="fas fa-arrow-right mr-2"></i>view project</a>
+                    <h5 class="section-heart"><span>+305</span></h5>
+                </div>
+            </div>
+            <div class="col-lg-3 timeline-wrap p-0">
+                <div class="timeline">
+                    <ul class="list-group border-0">
+                        <li class="list-group-item border-0">Timeline</li>
+                        <li class="list-group-item border-0"><a href="#"><i class="fas fa-arrow-right mr-2"></i>2018</a></li>
+                        <li class="list-group-item border-0"><a href="#"><i class="fas fa-arrow-right mr-2"></i>2017</a></li>
+                        <li class="list-group-item border-0"><a href="#"><i class="fas fa-arrow-right mr-2"></i>2016</a></li>
+                        <li class="list-group-item border-0"><a href="#"><i class="fas fa-arrow-right mr-2"></i>2015</a></li>
+                        <li class="list-group-item border-0"><a href="#"><i class="fas fa-arrow-right mr-2"></i>2014</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+        <div class="row">
+            <div class="col-lg-4 studio-wrap p-0">
+                <div class="studio">
+                    <h2 class="main-title">studio</h2>
+                </div>
+            </div>
+            <div class="col-lg-8 studio-text">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sollicitudin eros sit amet nulla rhoncus dictum. </p>
+                        <p>Nam rhoncus fringilla dolor vitae vulputate. Nullam quis eros lorem. Integer cursus erat a orci congue feugiat. Cras rhoncus mollis libero, id aliquet purus varius sed.</p>
+                        <p>Aenean ullamcorper porta nisl, ac lobortis elit commodo placerat.
+                        </p>
+                        <p>Vivamus eget laoreet enim. Sed nunc dui, egestas vel diam convallis, faucibus iaculis sapien. Sed ut vulputate nisi. </p>
+                        <p class="mb-0">Proin tempor risus tellus. Maecenas sit amet fringilla urna, vel iaculis velit. Sed ac felis et sem mollis dictum sed id orci.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="img/studio.png">
+                        <h5>awards</h5>
+                        <div class="d-flex justify-content-between">
+                            <ul class="list-group">
+                                <li class="list-group-item border-0">Aenean ullamcorper porta</li>
+                                <li class="list-group-item border-0">nisl,</li>
+                                <li class="list-group-item border-0">ac lobortis elit </li>
+                                <li class="list-group-item border-0">commodo placerat.</li>
+                                <li class="list-group-item border-0">Vivamus</li>
+                            </ul>
+                            <ul class="list-group d-inline-block">
+                                <li class="list-group-item border-0">Aenean ullamcorper porta</li>
+                                <li class="list-group-item border-0">nisl,</li>
+                                <li class="list-group-item border-0">ac lobortis elit </li>
+                                <li class="list-group-item border-0">commodo placerat.</li>
+                                <li class="list-group-item border-0">Vivamus</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.studio-text -->
+        </div>
+        <!-- /.row -->
+        <div class="row staff-wrap">
+            <div class="col-lg-4 staff-text">
+                <h5>STAFF.</h5>
+                <p>Sit amet laoreet sapien dictum. Sed eget eros augue. Pellentesque tempor mi sit amet nisi tincidunt tincidunt. Fusce malesuada lectus sed mauris pharetra faucibus.</p>
+                <p>Aenean diam tortor, hendrerit ac pulvinar vel, condimentum ac velit. Phasellus eu odio elit. Aenean volutpat mi quam, ut ornare augue tempus ut.</p>
+                <p class="mb-0">Morbi sagittis diam mauris, in adipiscing nulla convallis ut.</p>
+            </div>
+            <div class="col-lg-8 staff-images">
+                <div class="row p-0">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <img src="img/filip.png" class="img-fluid">
+                        <h5>philippe starck
+                            <span>designer</span>
+                        </h5>
+                        <div class="d-flex">
+                            <a href="#" class="mr-auto">CV <i class="fas fa-arrow-left"></i></a>
+                            <a href="#" class="pr-3"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="pr-3"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="pr-3"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <img src="img/mario.png" class="img-fluid">
+                        <h5>mario bellini
+                            <span>designer</span>
+                        </h5>
+                        <div class="d-flex">
+                            <a href="#" class="mr-auto">CV <i class="fas fa-arrow-left"></i></a>
+                            <a href="#" class="pr-3"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="pr-3"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="pr-3"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <img src="img/patricia.png" class="img-fluid">
+                        <h5>patricia urquiola
+                            <span>designer</span>
+                        </h5>
+                        <div class="d-flex">
+                            <a href="#" class="mr-auto">CV <i class="fas fa-arrow-left"></i></a>
+                            <a href="#" class="pr-3"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="pr-3"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="pr-3"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 p-0 news-wrap">
+                <div class="news">
+                    <h2 class="main-title">news</h2>
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-6 col-sm-12 p-0">
+                <div class="row news-text">
+                    <div class="col-lg-6">
+                        <h3 class="mb-0">Mauris et dui sed justo placerat tristique.</h3>
+                        <p>11.07.2017</p>
+                        <img src="img/news1.PNG" class="img-fluid">
+                        <p>Maecenas imperdiet nisi lorem, sed fermentum tortor pretium eget. Sed mollis lacus quis nunc cursus cursus. Quisque et magna sit amet sapien fermentum scelerisque eu id massa. Mauris ornare massa vel mauris tempus, vitae tempus urna tincidunt.</p>
+                        <a href="#">read more</a>
+                    </div>
+                    <div class="col-lg-6">
+                        <h3 class="mb-0">Mauris et dui sed justo placerat tristique.</h3>
+                        <p>11.07.2017</p>
+                        <img src="img/news2.PNG" class="img-fluid">
+                        <p>Praesent non mauris nec orci scelerisque faucibus. Nulla ac varius est. Aenean auctor nisl elit, nec sollicitudin lectus iaculis sed. Maecenas aliquam ligula vitae pharetra scelerisque. </p>
+                        <a href="#">read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="row p-0">
+            <div class="col-lg-6 map p-0"></div>
+            <div class="col-lg-6 footer-info">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <ul class="list-group d-inline-block">
+                            <li class="list-group-item border-0">90802 California</li>
+                            <li class="list-group-item border-0">Long beach</li>
+                            <li class="list-group-item border-0">PO Box 68789</li>
+                            <li class="list-group-item border-0">300 East Ocean </li>
+                            <li class="list-group-item border-0 pb-3">Boulevard</li>
+
+                            <li class="list-group-item border-0">+64 9 345 6758</li>
+                            <li class="list-group-item border-0">info@dsgn-studio.com</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <img src="img/dsgn-logo.png" class="d-block mb-5">
+                        <a href="#" class="pl-3 pr-1"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="pr-1"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="pr-1"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    </div>
+                </div>
+                <p class="mb-0 text-center">2018 All rights reserved. DSGN by theuncreativelab. Coded by <b>Milica Baros</b></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        /* Set the width of the side navigation to 250px */
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        /* Set the width of the side navigation to 0 */
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+
+    </script>
+</body>
+
+</html>
